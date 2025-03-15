@@ -1,5 +1,4 @@
 package leetcode;
-
 import java.util.HashMap;
 
 // s[i+1] = s[i]+nums[i]
