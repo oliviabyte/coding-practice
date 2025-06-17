@@ -5,20 +5,17 @@ class Solution {
     public int maxChunksToSorted(int[] arr) {
         int count = 0;
         Stack<Integer> stack = new Stack<>();
-        int max = 0;
-        for(int i = 0; i < arr.length; i++) {
-            if (stack.isEmpty() || arr[i] >= stack.peek()) {
-                stack.push(arr[i]);
+        int max = Integer.MIN_VALUE;
+
+        for(int i : arr) {
+            if (stack.isEmpty() || i >= stack.peek()) {
+                stack.push(i);
             } else {
-                int maxInMergedChunk = stack.peek();
-                while(!stack.isEmpty() && stack.peek() > arr[i]) {
+                max = stack.peek();
+                while(!stack.isEmpty() && stack.peek() > i) {
                     stack.pop();
                 }
-                stack.push(maxInMergedChunk);
-            }
-            if(!stack.isEmpty() && arr[i] < stack.peek()) {
-                int maxInMergedChunk = stack.pop();
-                stack.push(maxInMergedChunk);
+                stack.push(max);
             }
         }
         return stack.size();
