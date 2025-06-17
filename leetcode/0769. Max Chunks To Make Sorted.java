@@ -3,7 +3,6 @@ import java.util.Stack;
 
 class Solution {
     public int maxChunksToSorted(int[] arr) {
-        int count = 0;
         Stack<Integer> stack = new Stack<>();
         int max = Integer.MIN_VALUE;
 
