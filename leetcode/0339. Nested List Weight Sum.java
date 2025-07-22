@@ -24,6 +24,7 @@ import java.util.Stack;
 //     public List<NestedInteger> getList();
 // }
 
+// 考虑一下会不会栈溢出
 class Solution {
     class Pair {
         NestedInteger ni;
