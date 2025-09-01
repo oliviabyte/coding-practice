@@ -1,4 +1,4 @@
-// 工作中很少像leetcode一样简化成int+int，string+object比较贴近Redis之类的缓存系统
+// capacity control -> 
 package leetcode;
 
 import java.util.HashMap;
