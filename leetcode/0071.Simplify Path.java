@@ -5,27 +5,31 @@ import java.util.Stack;
 class Solution {
     public String simplifyPath(String path) {
         Stack<String> stack = new Stack<>();
-        // step1 spilt the given path into parts
-        String[] parts = path.split("/"); // O(n)
-        // step2 traverse each part
-        for(String s : parts) { // O(n)
-            if(s.equals(".") || s.equals("")) continue;
-            else if(s.equals("..")) {
-                if(stack.isEmpty()) continue;
-                else {
+        String[] pathArray = path.split("/");
+        for(int i = 0; i < pathArray.length; i++) {
+            // case 1: 需要返回上一级
+            if(pathArray[i].equals("..")) {
+                if(!stack.isEmpty()) {
                     stack.pop();
                 }
             }
-            else stack.push(s);
+            // case 2: split后为空或者是.
+            else if(pathArray[i].equals("") || pathArray[i].equals(".")) {
+                continue;
+            // case 3: 有效字符
+            } else {
+                stack.push(pathArray[i]);
+            }
         }
-        // step3 build the final result
+        // edge case
+        if (stack.isEmpty()) {
+            return "/";
+        }
+
         StringBuilder sb = new StringBuilder();
         for(String s : stack) {
-            sb.append("/");
-            sb.append(s);
+            sb.append("/").append(s);
         }
-        return sb.length() == 0 ? "/" : sb.toString();
+        return sb.toString();
     }
 }
-// Overall time complexity: O(n)
-// space complexity: O(n)
