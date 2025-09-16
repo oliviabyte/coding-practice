@@ -1,4 +1,3 @@
-package company.codesignal;
 
 class Solution {
     // For alpha2beta = [0, 200, 500], beta2alpha = [99, 210, 450]

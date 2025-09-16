@@ -1,4 +1,3 @@
-package leetcode;
 
 class Solution {
     public int maxArea(int[] height) {

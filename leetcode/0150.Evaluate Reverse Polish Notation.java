@@ -1,6 +1,4 @@
-package leetcode;
-
-import java.util.Stack;
+import java.util.*;
 
 /*
 we can using stack to solve this problem

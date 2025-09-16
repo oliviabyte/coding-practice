@@ -1,5 +1,4 @@
-package leetcode;
-import java.util.HashMap;
+import java.util.*;
 
 // s[i+1] = s[i]+nums[i]
 // (s[i+1] - s[j]) % k = 0 -> s[i+1] % k = s[j] % k

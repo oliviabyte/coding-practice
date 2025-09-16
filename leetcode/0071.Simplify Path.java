@@ -1,6 +1,4 @@
-package leetcode;
-
-import java.util.Stack;
+import java.util.*;
 
 class Solution {
     public String simplifyPath(String path) {

@@ -1,7 +1,4 @@
-package leetcode;
-
-import java.util.HashSet;
-import java.util.Stack;
+import java.util.*;
 
 class Solution {
     public String removeDuplicateLetters(String s) {

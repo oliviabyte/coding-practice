@@ -1,6 +1,3 @@
-package leetcode;
-
-// edge cases: 1.no leading 0
 //             2.build the whole number
 //             3.word pointer goes out of bounds
 //             4.if our abbr finishes early, but word still has leftovers

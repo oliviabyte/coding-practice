@@ -1,8 +1,4 @@
-package leetcode;
-
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Stack;
+import java.util.*;
 
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {

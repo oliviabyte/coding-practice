@@ -1,8 +1,4 @@
-package leetcode;
-
-import java.util.HashMap;
-import java.util.Map;
-import java.util.PriorityQueue;
+import java.util.*;
 
 class Solution {
     public String reorganizeString(String s) {

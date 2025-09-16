@@ -1,6 +1,5 @@
-package leetcode.OOD;
-import java.util.Arrays;
-import java.util.List;
+package OOD;
+import java.util.*;
 
 // Problem Description: The main task is to design a system for calculating pizza prices, with several follow-up questions exploring various OOD aspects.
 

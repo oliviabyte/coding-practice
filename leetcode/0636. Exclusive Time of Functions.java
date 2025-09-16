@@ -1,7 +1,4 @@
-package leetcode;
-
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 class Solution {
     public int[] exclusiveTime(int n, List<String> logs) {

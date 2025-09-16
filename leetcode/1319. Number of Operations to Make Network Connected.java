@@ -1,6 +1,4 @@
-package leetcode;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 class Solution {
     public int makeConnected(int n, int[][] connections) {

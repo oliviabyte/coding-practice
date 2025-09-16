@@ -1,6 +1,4 @@
-package leetcode;
-import java.util.List;
-import java.util.ArrayList;
+import java.util.*;
 
 
 class Solution {

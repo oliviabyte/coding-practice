@@ -1,7 +1,5 @@
 // capacity control -> 
-package leetcode;
-
-import java.util.HashMap;
+import java.util.*;
 
 class LRUCache {
     class ListNode {

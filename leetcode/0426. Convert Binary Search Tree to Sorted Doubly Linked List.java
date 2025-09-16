@@ -1,5 +1,4 @@
-package leetcode;
-import java.util.Stack;
+import java.util.*;
 
 
 class Node {

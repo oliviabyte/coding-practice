@@ -1,6 +1,4 @@
-package leetcode;
-
-import java.util.PriorityQueue;
+import java.util.*;
 
 class Solution {
     public int findKthLargest(int[] nums, int k) {

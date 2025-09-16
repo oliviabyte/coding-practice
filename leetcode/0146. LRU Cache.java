@@ -1,7 +1,5 @@
 // 工作中很少像leetcode一样简化成int+int，string+object比较贴近Redis之类的缓存系统
-package leetcode;
-
-import java.util.HashMap;
+import java.util.*;
 
 class LRUCache {
     class ListNode {

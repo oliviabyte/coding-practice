@@ -1,8 +1,5 @@
-package leetcode.exercise;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+package exercise;
+import java.util.*;
 
 /**
  * Problem: Most Frequent User from Logs

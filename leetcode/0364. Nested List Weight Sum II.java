@@ -1,8 +1,4 @@
-package leetcode;
-
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * // This is the interface that allows for creating nested lists.

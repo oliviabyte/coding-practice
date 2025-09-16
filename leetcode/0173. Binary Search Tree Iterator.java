@@ -1,6 +1,4 @@
-package leetcode;
-
-import java.util.Stack;
+import java.util.*;
 
 /**
  * Definition for a binary tree node.

@@ -1,4 +1,4 @@
-package company.codesignal;
+import java.util.*;
 
 class Solution {
     

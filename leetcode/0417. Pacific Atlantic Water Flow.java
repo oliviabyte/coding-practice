@@ -1,8 +1,4 @@
-package leetcode;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 class Solution {
     List<List<Integer>> res = new ArrayList<>();

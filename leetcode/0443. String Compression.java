@@ -1,4 +1,3 @@
-package leetcode;
 
 class Solution {
     private int compress(char[] chars) {
